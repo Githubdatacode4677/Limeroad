@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [loginHrm]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="launchOrange(failed)">
+    <classes>
+      <class name="com.Testng_pro.Runner_Class">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginCredential"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.Testng_pro.Runner_Class -->
+    </classes>
+  </test> <!-- launchOrange(failed) -->
+</suite> <!-- Failed suite [loginHrm] -->
